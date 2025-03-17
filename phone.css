@@ -1,0 +1,105 @@
+body
+{
+	background-image:radial-gradient(#12C2E9,#F64F59)
+}
+*
+{	
+	margin:0;
+	padding:0;
+}
+.container
+{
+	width:90%;
+	height:600px;
+	margin:60px 150px;
+}			
+.container .box1
+{
+	width:20%;
+	height:100%;
+	border:2px solid black;
+	float:left;
+	overflow:scroll;
+	box-shadow:2px 2px 18px 12px white;
+}
+.container .box1 h4
+{
+	text-align:center;
+	padding-top:15px;
+}
+.container .box1 h4:hover
+{
+	color:blue;
+	transform:scale(1.5);
+}
+.container .box2
+{
+	width:70%;
+	height:100%;
+	border:2px solid black;
+	float:left;
+	box-shadow:2px 2px 18px 12px white;
+}
+.container .box2 header
+{
+	text-align:center;
+	padding-top:20px;
+	color:darkred;
+}
+.container .box2 header:hover
+{
+	color:white;
+}
+.container .box2 .myclass
+{
+    background-color: gray;
+    padding: 40px;
+    margin: 50px 120px;
+    height: 200px;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+.container .box2 .input-area 
+{
+	padding-top:90px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container .box2 .input-area input[type="text"] 
+{
+	text-align:center;
+	width: 60%;
+	padding:10px;
+	margin-left:20px;
+	margin-right:20px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+.container .box2 .input-area button 
+{
+	padding: 10px 15px;
+	font-size: 16px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.container .box2 .input-area button:disabled 
+{
+	background-color: #ccc;
+	cursor: not-allowed;
+}
+.container .box2 .medicine-image img 
+{
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px;
+}
